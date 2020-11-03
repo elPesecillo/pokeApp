@@ -1,0 +1,32 @@
+{
+  "name": "pokeapp",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "PHD",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-react-app"
+    ]
+  }
+}
