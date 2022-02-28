@@ -67,7 +67,7 @@ function PokemonDetail({ pokemon }) {
         N.º {pokemon.id} {pokemon.name}
       </h1>
       <img
-        src={`https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png`}
+       src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg`}
         className="img-fluid pokemon-image-detail d-block mx-auto"
       />
       <div className="pokemon-box-details">
